@@ -20,3 +20,19 @@
 .gap-16{
   gap: 16px;
 }
+
+.text-h1{
+  font: var(--h1)
+}
+
+.text-h2{
+  font: var(--h1)
+}
+
+.text-h3{
+  font: var(--h3)
+}
+.text-sm{
+  font: var(--text-sm)
+}
+
