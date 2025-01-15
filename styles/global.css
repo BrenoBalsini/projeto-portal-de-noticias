@@ -19,6 +19,9 @@
     --text-span: 600 14px/145% var(--font-family);
     --text: 400 14px/140% var(--font-family);
     --text-sm: 500 10px/12 var(--font-family);
+
+    --font-family-black: "Archivo Black", serif;
+    --text-b: 400 14px/140% var(--font-family-black);
   }
 
   body{
@@ -45,7 +48,15 @@
     
 
   main{
-    margin-top: 40px;
+    margin-block: 40px 40px;
+    row-gap: 80px;
+
+    grid-template-columns: 60% 40%;
+
+    grid-template-areas: 
+    "feature feature"
+    "weekly weekly"
+    "ia aside"
   }
 
   .content-tag{

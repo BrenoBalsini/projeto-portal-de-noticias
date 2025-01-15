@@ -21,12 +21,16 @@
   gap: 16px;
 }
 
+.gap-32{
+  gap: 32px;
+}
+
 .text-h1{
   font: var(--h1)
 }
 
 .text-h2{
-  font: var(--h1)
+  font: var(--h2)
 }
 
 .text-h3{
@@ -36,3 +40,10 @@
   font: var(--text-sm)
 }
 
+.text-p{
+  font: var(--text);
+}
+
+.text-b{
+  font: var(--text-b);
+}
